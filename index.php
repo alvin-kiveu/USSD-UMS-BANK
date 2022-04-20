@@ -8,7 +8,7 @@ $text        = $_POST["text"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "CON What would you want to check \n";
+    $response  = "CON Welcome to umekia softwares \n";
     $response .= "1. My Account \n";
     $response .= "2. My phone number";
 } else if ($text == "1") {
